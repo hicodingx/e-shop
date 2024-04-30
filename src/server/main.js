@@ -9,7 +9,7 @@ app.get("/hello", (req, res) => {
 
 // Configuration for production build
 
-ViteExpress.config({ mode: "development" });
+// ViteExpress.config({ mode: "development" });
 
 ViteExpress.listen(app, 3000, () =>
   console.log("Server is listening on port 3000...")
