@@ -1,0 +1,156 @@
+footer {
+  background: #212121;
+  padding: 30px 0;
+}
+
+/* footer category */
+
+.footer-category {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--onyx);
+}
+
+.footer-category-title {
+  color: var(--salmon-pink);
+  font-size: var(--fs-6);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.category-box-title {
+  color: var(--spanish-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+}
+
+.footer-category-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 3px;
+  margin-bottom: 15px;
+}
+
+.footer-category-link {
+  position: relative;
+  color: var(--sonic-silver);
+  font-size: var(--fs-7);
+  text-transform: capitalize;
+  transition: var(--transition-timing);
+}
+
+.footer-category-link:hover {
+  color: var(--spanish-gray);
+}
+
+.footer-category-link:not(:last-child)::after {
+  position: absolute;
+  top: 3px;
+  right: -10px;
+  content: "";
+  width: 1px;
+  height: 15px;
+  background: var(--sonic-silver);
+}
+
+/* footer nav */
+
+.footer-nav {
+  border-bottom: 1px solid var(--onyx);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-nav-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer-nav .nav-title {
+  color: var(--white);
+  font-size: var(--fs-7);
+  text-transform: uppercase;
+  font-weight: var(--weight-500);
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.footer-nav .nav-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 1px;
+  background: var(--salmon-pink);
+  border-radius: 1px;
+}
+
+.footer-nav-item {
+  padding: 3px 0;
+}
+.footer-nav-link,
+.content,
+.footer-nav-item {
+  color: var(--sonic-silver);
+  font-size: var(--fs-7);
+  width: max-content;
+  text-transform: capitalize;
+  transition: var(--transition-timing);
+}
+
+.footer-nav-item.flex,
+.content {
+  width: unset;
+}
+.footer-nav-link:hover {
+  color: var(--salmon-pink);
+}
+
+.footer-nav-item.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-nav-item.flex .content {
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+.footer-nav .social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-bottom {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.payment-img {
+  max-width: 335px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.copyright {
+  color: var(--sonic-silver);
+  font-size: var(--fs-8);
+  font-weight: var(--weight-500);
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+}
+
+.copyright a {
+  color: inherit;
+  display: inline;
+}

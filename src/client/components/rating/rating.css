@@ -1,0 +1,6 @@
+.showcase-rating {
+  display: flex;
+  color: var(--sandy-brown);
+  font-size: 13px;
+  padding: 4px 0;
+}

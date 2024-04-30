@@ -1,0 +1,87 @@
+.notification-toast {
+  position: fixed;
+  bottom: 80px;
+  /* Les deux propriétés pour position la carte au millieu  */
+  /* tel que la distance à la gauche est égale à celle de la droite */
+  left: 20px;
+
+  background: var(--white);
+  max-width: 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  border-radius: var(--border-radius-md);
+  box-shadow: 0px 5px 20px hsla(0, 0%, 0%, 0.15);
+  transform: translateX(calc(-100% - 40px));
+  transition: 0.5s ease-in-out;
+  z-index: 5;
+  /* Animation commence automatiquement mais ces premières */
+  /* mais ces premières propriétés fais que le slidee n'est pas disponible */
+  animation: slideInOut 10s ease-in-out infinite;
+}
+
+@keyframes slideInOut {
+  0%,
+  35%,
+  100% {
+    /* meilleur propriété à animer */
+    transform: translateX(calc(-100%, -40px));
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  50%,
+  95% {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.notification-toast.closed {
+  display: none;
+}
+
+.toast-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--sonic-silver);
+}
+
+.toast-banner {
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--cultured);
+  border-radius: var(--border-radius-md);
+}
+
+.toast-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.toast-detail {
+  width: calc(100% - 85px);
+  padding-right: 25px;
+}
+
+.toast-message {
+  font-size: var(--fs-10);
+  color: var(--sonic-silver);
+  margin-bottom: 8px;
+}
+
+.toast-title {
+  font-size: var(--fs-7);
+  font-weight: var(--weight-500);
+  color: var(--onyx);
+}
+
+.toast-meta {
+  font-size: var(--fs-10);
+  color: var(--sonic-silver);
+}

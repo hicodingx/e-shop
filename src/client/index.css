@@ -1,0 +1,146 @@
+@import url("../client/utils/_variables.css");
+
+/* ********************************** *\
+        Reset
+/* ********************************** */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  /* Transmission de scroll du père vers le fils vice-versa interdit */
+  overscroll-behavior: contain;
+}
+
+body {
+  background: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: none;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+}
+
+img,
+.react-icon,
+ion-icon,
+button,
+a {
+  display: block;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font: inherit;
+}
+
+/* ************************* *\
+    Scrollbar type
+/* ************************* */
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--white);
+  border-left: 1px solid var(--cultured);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 80%);
+  border: 3px solid var(--white);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 70%);
+}
+
+/* Reused styyle */
+
+.container {
+  padding: 0 15px;
+}
+
+.has-scrollbar {
+  padding-bottom: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar {
+  width: 12px; /*for vertical scroll*/
+  height: 12px; /* for horizontal scrool*/
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: 3px solid var(--white);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.has-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 90%);
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 80%);
+}
+
+.overlay {
+  position: fixed; /*Le retirer de l'aborescense ordonnée */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: hsla(0, 0%, 0%, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease;
+  z-index: 15;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.title {
+  color: var(--eerie-black);
+  font-size: var(-fs-5);
+  font-weight: var(--weight-500);
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--cultured);
+  margin-bottom: 30px;
+}
