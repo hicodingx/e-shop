@@ -22,7 +22,7 @@ function Banner() {
                 <h2 className="banner-title">{item.ban_title}</h2>
 
                 <p className="banner-text">
-                  Starting at &dollar; <b>{item.price}</b>.00
+                  Starting at $<b>{item.price}</b>.00
                 </p>
 
                 <Link className="banner-btn" to="/">

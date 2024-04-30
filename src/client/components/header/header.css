@@ -47,3 +47,30 @@
 .search-btn:hover {
   color: var(--salmon-pink);
 }
+
+@media (min-width: 480px) {
+  .header-top {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--cultured);
+  }
+
+  .header-top-actions,
+  .header-social-container {
+    display: none;
+  }
+
+  .header-alert-news {
+    color: var(--sonic-silver);
+    font-size: var(--fs-9);
+    text-transform: uppercase;
+  }
+
+  .header-alert-news b {
+    font-weight: var(--weight-500);
+  }
+
+  .header-main {
+    padding: 25px 0;
+  }
+}

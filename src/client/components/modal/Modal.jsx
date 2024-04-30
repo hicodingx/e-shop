@@ -4,7 +4,7 @@ import "./modal.css";
 import { useState } from "react";
 
 const Modal = () => {
-  const [isclosed, setIsClosed] = useState(true);
+  const [isclosed, setIsClosed] = useState(false);
 
   return (
     <div className={isclosed ? "modal closed" : "modal"}>

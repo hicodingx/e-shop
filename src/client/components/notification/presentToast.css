@@ -13,6 +13,7 @@
   transform: translateX(calc(100% + 50px));
   animation: slideIn 20s ease-in-out;
   padding-left: 20px;
+  z-index: 10;
 }
 
 .present-toast.closed {
