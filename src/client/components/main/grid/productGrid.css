@@ -166,3 +166,9 @@
 .product-grid .price-box del {
   color: var(--sonic-silver);
 }
+
+@media (min-width: 480px) {
+  .product-grid {
+    grid-template-columns: auto auto;
+  }
+}

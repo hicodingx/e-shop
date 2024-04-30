@@ -33,3 +33,10 @@
   padding: 2px 4px;
   border-radius: 20px;
 }
+
+@media (min-width: 480px) {
+  .mobile-bottom-navigation {
+    border-top-left-radius: var(--border-radius-md);
+    border-top-right-radius: var(--border-radius-md);
+  }
+}
