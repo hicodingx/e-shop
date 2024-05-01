@@ -101,3 +101,23 @@
     min-width: 100%;
   }
 }
+
+@media (min-width: 1024px) {
+  .product-minimal {
+    margin-bottom: 20px;
+  }
+
+  .product-minimal .product-showcase {
+    min-width: calc(33% - 14px);
+    width: calc(33% - 14px);
+    flex-grow: 1;
+  }
+
+  .product-minimal .showcase-wrapper {
+    gap: 10px;
+  }
+
+  .product-minimal .showcase-container {
+    padding: 2px;
+  }
+}

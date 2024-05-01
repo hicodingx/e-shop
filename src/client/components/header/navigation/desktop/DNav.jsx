@@ -23,6 +23,7 @@ const DNav = () => {
             <Link to="" className="menu-title">
               Categories
             </Link>
+
             <div className="dropdown-panel">
               <ul className="dropdown-panel-list">
                 <li className="menu-title">
@@ -45,11 +46,11 @@ const DNav = () => {
                   <Link to="">Headphone</Link>
                 </li>
                 <li className="panel-list-item">
-                  <Link to="">
+                  <Link to="/">
                     <img
                       src={img1}
                       alt="headphone collection"
-                      style={{ width: "250px", height: "119px" }}
+                      // style={{ width: "250px", height: "119px" }}
                     />
                   </Link>
                 </li>
@@ -80,7 +81,7 @@ const DNav = () => {
                     <img
                       src={img2}
                       alt="headphone collection"
-                      style={{ width: 250, height: 119 }}
+                      // style={{ width: 250, height: 119 }}
                     />
                   </Link>
                 </li>
@@ -111,7 +112,7 @@ const DNav = () => {
                     <img
                       src={img3}
                       alt="headphone collection"
-                      style={{ width: 250, height: 119 }}
+                      // style={{ width: 250, height: 119 }}
                     />
                   </Link>
                 </li>
@@ -142,7 +143,7 @@ const DNav = () => {
                     <img
                       src={img4}
                       alt="headphone collection"
-                      style={{ width: 250, height: 119 }}
+                      // style={{ width: 250, height: 119 }}
                     />
                   </Link>
                 </li>

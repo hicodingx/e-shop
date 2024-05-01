@@ -87,3 +87,9 @@
   font-size: var(--fs-10);
   color: var(--sonic-silver);
 }
+
+@media (min-width: 1024px) {
+  .notification-toast {
+    bottom: 30px;
+  }
+}

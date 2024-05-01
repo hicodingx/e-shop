@@ -40,3 +40,9 @@
     border-top-right-radius: var(--border-radius-md);
   }
 }
+
+@media (min-width: 1024px) {
+  .mobile-bottom-navigation {
+    display: none;
+  }
+}

@@ -172,3 +172,9 @@
     min-width: calc(100% - 345px);
   }
 }
+
+@media (min-width: 1024px) {
+  .product-featured .countdown-content {
+    padding: 5px 10px;
+  }
+}
