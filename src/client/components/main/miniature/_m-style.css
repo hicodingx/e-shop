@@ -84,3 +84,17 @@
     padding: 10px;
   }
 }
+
+@media (min-width: 1200px) {
+  .category-item {
+    min-width: calc(25% - 22.5px);
+  }
+
+  .category-item-title {
+    --fs-9: 0.824rem;
+  }
+
+  .category-btn {
+    margin-top: 5px;
+  }
+}

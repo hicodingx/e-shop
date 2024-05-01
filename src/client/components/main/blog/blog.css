@@ -71,3 +71,12 @@
     --fs-5: 1rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .blog {
+    margin-bottom: 50px;
+  }
+  .blog .blog-card {
+    min-width: calc(24% - 15px);
+  }
+}

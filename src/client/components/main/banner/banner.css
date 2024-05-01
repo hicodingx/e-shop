@@ -174,3 +174,9 @@
     --fs-11: 0.875rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .slider-item:last-child .banner-img {
+    object-position: top;
+  }
+}
