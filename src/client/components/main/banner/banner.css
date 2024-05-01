@@ -180,3 +180,14 @@
     object-position: top;
   }
 }
+
+@media (min-width: 1400px) {
+  .slider-item {
+    height: 450px;
+  }
+
+  .banner-content {
+    left: 110px;
+    min-width: 460px;
+  }
+}
