@@ -52,3 +52,13 @@
   font-style: normal;
   color: var(--davys-gray);
 }
+
+@media (min-width: 570px) {
+  .blog-container {
+    align-items: flex-start;
+    gap: 35px;
+  }
+  .blog .blog-card {
+    min-width: calc(50% - 15px);
+  }
+}

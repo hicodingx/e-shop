@@ -88,3 +88,9 @@
     --fs-9: 1rem;
   }
 }
+
+@media (min-width: 270px) {
+  .cta-container {
+    aspect-ratio: 6 / 5;
+  }
+}

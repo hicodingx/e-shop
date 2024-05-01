@@ -59,3 +59,13 @@
   color: var(--salmon-pink);
   font-weight: var(--weight-500);
 }
+
+@media (min-width: 571px) {
+  .category-item-container {
+    gap: 30px;
+  }
+
+  .category-item {
+    min-width: calc(50% - 15px);
+  }
+}

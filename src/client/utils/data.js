@@ -10,8 +10,8 @@ export const banner = [
   {
     img: "banner-1.jpg",
     alt: "women's latest fashion sale",
-    ban_title: "Women's latest fashion",
-    ban_sub: "Trending item",
+    ban_sub: "Women's latest fashion",
+    ban_title: "Trending item",
     price: 20,
     text_link: "Shop now",
   },

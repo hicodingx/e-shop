@@ -77,3 +77,9 @@
   color: var(--sonic-silver);
   font-size: var(--fs-9);
 }
+
+@media (min-width: 570px) {
+  .product-minimal .showcase-container {
+    min-width: 50%;
+  }
+}

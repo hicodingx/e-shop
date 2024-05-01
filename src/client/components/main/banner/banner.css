@@ -51,7 +51,7 @@
 }
 
 .banner-title {
-  color: var(--eerie-black);
+  color: var(--onyx);
   font-size: var(--fs-1);
   text-transform: uppercase;
   line-height: 1;
@@ -109,5 +109,14 @@
 
   .banner-btn {
     padding: 7px 20px;
+  }
+}
+
+@media (min-width: 570px) {
+  .slider-item {
+    aspect-ratio: 4 / 2;
+  }
+  .banner-content {
+    background: none;
   }
 }

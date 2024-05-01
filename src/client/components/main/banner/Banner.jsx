@@ -17,9 +17,9 @@ function Banner() {
               />
 
               <div className="banner-content">
-                <p className="banner-subtitle">{item.ban_sub}</p>
+                <p className="banner-subtitle">{item.ban_title}</p>
 
-                <h2 className="banner-title">{item.ban_title}</h2>
+                <h2 className="banner-title">{item.ban_sub}</h2>
 
                 <p className="banner-text">
                   Starting at $<b>{item.price}</b>.00

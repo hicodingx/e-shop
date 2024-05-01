@@ -52,11 +52,11 @@ export default function Header({ overlay, handleOverlay }) {
 
           <div className="header-top-actions">
             <select name="currency" id="">
-              <option value="usd">USD &dollar;</option>
+              <option value="usd">USD $</option>
               <option value="eur">EUR &euro;</option>
             </select>
             <select name="language" id="">
-              <option value="en-Us">English;</option>
+              <option value="en-Us">English</option>
               <option value="es-Es">Espa&ntilde;ol</option>
               <option value="fr-FR">French</option>
             </select>
@@ -76,7 +76,7 @@ export default function Header({ overlay, handleOverlay }) {
               name="search"
               id=""
               className="search-field"
-              placeholder="Rechercher un produit...."
+              placeholder="Rechercher un produit... "
             />
             <button className="search-btn">
               <FaSearch className="react-icon" size={15} />
