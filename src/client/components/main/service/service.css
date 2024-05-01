@@ -54,3 +54,21 @@
     min-width: 20%;
   }
 }
+
+@media (min-width: 1200px) {
+  .service {
+    min-width: calc(25% - 20px);
+    width: calc(25% - 20px);
+  }
+
+  .service-container {
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 30px;
+  }
+
+  .service-item {
+    flex-direction: row;
+    text-align: left;
+  }
+}

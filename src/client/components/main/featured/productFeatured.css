@@ -178,3 +178,13 @@
     padding: 5px 10px;
   }
 }
+
+@media (min-width: 1200px) {
+  .product-featured .showcase > div {
+    min-width: calc(50% - 10px);
+  }
+
+  .product-featured .display-number {
+    --fs-5: 1.125rem;
+  }
+}

@@ -55,3 +55,10 @@
     width: 45%;
   }
 }
+
+@media (min-width: 1200px) {
+  .testimonial {
+    min-width: calc(25% - 20px);
+    width: calc(25% - 20%);
+  }
+}

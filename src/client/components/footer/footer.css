@@ -195,3 +195,14 @@ footer {
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1200px) {
+  .footer-category {
+    margin-bottom: 50px;
+    padding-bottom: 35px;
+  }
+
+  .footer-nav {
+    padding-bottom: 50px;
+  }
+}
