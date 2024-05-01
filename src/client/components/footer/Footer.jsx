@@ -62,7 +62,7 @@ export default function Footer() {
 
             <li className="footer-nav-item flex">
               <div className="icon-box">
-                <IoLocationOutline size={20} className="react-icon" />
+                <IoLocationOutline size={30} className="react-icon" />
               </div>
 
               <address className="content">

@@ -22,14 +22,14 @@ const Modal = () => {
           <img
             src={newsImage}
             alt="subscribe newsletter"
-            style={{ width: "400px", height: "400px" }}
+            className="news-img"
           />
         </div>
 
         <div className="newsletter">
           <form action="#">
             <div className="newsletter-header">
-              <h3 className="newsletter-title">Subscribe to Newsletter.</h3>
+              <h3 className="newsletter-title">Subscribe Newsletter.</h3>
               <p className="newsletter-desc">
                 Subscribe to the <b>Anon</b> to get latest products and discount
                 update.

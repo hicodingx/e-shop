@@ -22,63 +22,64 @@ export default function ProductFeatured() {
 
             <div className="showcase-content">
               <Rating ratingNumber={3.5} />
-            </div>
 
-            <Link to="/">
-              <h3 className="showcase-title">
-                shampoo, conditioner & fasewash packs
-              </h3>
-            </Link>
+              <Link to="/">
+                <h3 className="showcase-title">
+                  shampoo, conditioner & fasewash packs
+                </h3>
+              </Link>
 
-            <p className="showcase-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              voluptatem debitis pariatur ex nemo. Quidem corporis, dolor
-            </p>
+              <p className="showcase-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus voluptatem debitis pariatur ex nemo. Quidem corporis,
+                dolor
+              </p>
 
-            <div className="price-box">
-              <p className="price">$150.00</p>
+              <div className="price-box">
+                <p className="price">$150.00</p>
 
-              <del>$200.00</del>
-            </div>
-
-            <button className="add-to-cart">Add to cart</button>
-
-            <div className="showcase-status">
-              <div className="wrapper">
-                <p>
-                  already sold: <b>20</b>
-                </p>
-
-                <p>
-                  Available: <b>40</b>
-                </p>
+                <del>$200.00</del>
               </div>
 
-              <div className="showcase-status-bar"></div>
-            </div>
+              <button className="add-to-cart">Add to cart</button>
 
-            <div className="countdown-box">
-              <p className="countdown-desc">Hury Up: Offer ends in:</p>
+              <div className="showcase-status">
+                <div className="wrapper">
+                  <p>
+                    already sold: <b>20</b>
+                  </p>
 
-              <div className="countdown">
-                <div className="countdown-content">
-                  <p className="display-number">360</p>
-                  <p className="display-text">Days</p>
+                  <p>
+                    Available: <b>40</b>
+                  </p>
                 </div>
 
-                <div className="countdown-content">
-                  <p className="display-number">24</p>
-                  <p className="display-text">Hours</p>
-                </div>
+                <div className="showcase-status-bar"></div>
+              </div>
 
-                <div className="countdown-content">
-                  <p className="display-number">59</p>
-                  <p className="display-text">Min</p>
-                </div>
+              <div className="countdown-box">
+                <p className="countdown-desc">Hury Up: Offer ends in:</p>
 
-                <div className="countdown-content">
-                  <p className="display-number">00</p>
-                  <p className="display-text">Sec</p>
+                <div className="countdown">
+                  <div className="countdown-content">
+                    <p className="display-number">360</p>
+                    <p className="display-text">Days</p>
+                  </div>
+
+                  <div className="countdown-content">
+                    <p className="display-number">24</p>
+                    <p className="display-text">Hours</p>
+                  </div>
+
+                  <div className="countdown-content">
+                    <p className="display-number">59</p>
+                    <p className="display-text">Min</p>
+                  </div>
+
+                  <div className="countdown-content">
+                    <p className="display-number">00</p>
+                    <p className="display-text">Sec</p>
+                  </div>
                 </div>
               </div>
             </div>

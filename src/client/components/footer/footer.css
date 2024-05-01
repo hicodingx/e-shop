@@ -158,3 +158,25 @@ footer {
 .copyright {
   --fs-8: 0.875rem;
 }
+
+@media (min-width: 768px) {
+  .footer-nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 20px;
+  }
+
+  .footer-nav-list {
+    min-width: calc(33 33%- 15px);
+    width: calc(33.33% - 15px);
+  }
+
+  .footer-nav-item .icon-box:first-child {
+    align-self: flex-start;
+  }
+
+  .footer-nav-list:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

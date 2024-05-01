@@ -154,3 +154,21 @@
     gap: 20px;
   }
 }
+
+@media (min-width: 768px) {
+  .product-featured .showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .product-featured .showcase-img {
+    max-width: fit-content;
+  }
+
+  .product-featured .showcase-content {
+    margin-top: 0;
+    min-width: calc(100% - 345px);
+  }
+}

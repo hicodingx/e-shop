@@ -89,8 +89,14 @@
   }
 }
 
-@media (min-width: 270px) {
+@media (min-width: 570px) {
   .cta-container {
     aspect-ratio: 6 / 5;
+  }
+}
+
+@media (min-width: 768px) {
+  .cta-container {
+    aspect-ratio: 2 / 1;
   }
 }

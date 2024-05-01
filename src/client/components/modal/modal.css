@@ -120,7 +120,7 @@
 }
 
 .btn-newsletter {
-  background: var(--eerie-black);
+  background: var(--onyx);
   color: var(--white);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
@@ -133,4 +133,36 @@
 
 .btn-newsletter:hover {
   background: var(--salmon-pink);
+}
+
+@media (min-width: 768px) {
+  .modal-content {
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+    width: fit-content;
+  }
+
+  .newsletter-img {
+    display: block;
+  }
+
+  .news-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .newsletter {
+    text-align: left;
+  }
+
+  .newsletter-title {
+    font-size: var(--fs-4);
+  }
+
+  .btn-newsletter {
+    padding: 10px 25px;
+    background: #000;
+  }
 }

@@ -83,3 +83,21 @@
     min-width: 50%;
   }
 }
+
+@media (min-width: 768px) {
+  .product-minimal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .product-minimal .product-showcase {
+    min-width: calc(50% - 10px);
+    width: calc(50% - 10px);
+  }
+
+  .product-minimal .showcase-container {
+    min-width: 100%;
+  }
+}
