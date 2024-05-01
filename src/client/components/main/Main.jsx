@@ -8,6 +8,7 @@ import ProductGrid from "./grid/ProductGrid";
 import Testimonial from "./testimonial/Testimonial";
 import Cta from "./cta/Cta";
 import Blog from "./blog/Blog";
+import "./main.css";
 
 function Main({ overlay, handleOverlay }) {
   return (
@@ -15,8 +16,8 @@ function Main({ overlay, handleOverlay }) {
       <Banner />
       <MiniatureUnderBanner />
 
-      <div className="product-container">
-        <div className="container">
+      <div className="container">
+        <div className="product-container">
           <SideBar overlay={overlay} handleOverlay={handleOverlay} />
 
           <div className="product-box">

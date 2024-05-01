@@ -62,3 +62,16 @@
     margin: auto;
   }
 }
+
+@media (min-width: 1024px) {
+  /* typography */
+
+  :root {
+    --fs-1: 2.625rem;
+    --fs-2: 1.125rem;
+  }
+
+  .container {
+    max-width: 980px;
+  }
+}

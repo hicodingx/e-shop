@@ -62,3 +62,12 @@
     min-width: calc(50% - 15px);
   }
 }
+@media (min-width: 1024px) {
+  .blog .blog-card {
+    min-width: calc(33.33% - 20px);
+  }
+
+  .blog-title {
+    --fs-5: 1rem;
+  }
+}

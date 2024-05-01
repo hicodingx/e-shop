@@ -100,3 +100,11 @@
     aspect-ratio: 2 / 1;
   }
 }
+
+@media (min-width: 1024px) {
+  .cta-container {
+    min-width: calc(50% - 15px);
+    width: calc(53% - 15px);
+    margin-bottom: 0;
+  }
+}

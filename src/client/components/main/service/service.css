@@ -38,3 +38,19 @@
   color: var(--sonic-silver);
   font-size: var(--fs-9);
 }
+
+@media (min-width: 1024px) {
+  .service {
+    width: 100%;
+  }
+
+  .service-container {
+    gap: 0;
+  }
+
+  .service-item {
+    flex-direction: column;
+    text-align: center;
+    min-width: 20%;
+  }
+}

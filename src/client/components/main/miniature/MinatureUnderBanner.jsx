@@ -25,14 +25,14 @@ export default function MiniatureUnderBanner() {
                 <div className="category-content-flex">
                   <div>
                     <h3 className="category-item-title">{product.name}</h3>
-                    <p className="category-item-amount">
-                      ({product.countInStock})
-                    </p>
+                    <Link to="/" className="category-btn">
+                      Voir plus
+                    </Link>
                   </div>
 
-                  <Link to="/" className="category-btn">
-                    Voir plus
-                  </Link>
+                  <p className="category-item-amount">
+                    ({product.countInStock})
+                  </p>
                 </div>
               </div>
             </div>

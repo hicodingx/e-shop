@@ -172,3 +172,8 @@
     grid-template-columns: auto auto;
   }
 }
+@media (min-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, auto);
+  }
+}

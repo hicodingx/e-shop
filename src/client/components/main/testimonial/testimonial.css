@@ -41,3 +41,17 @@
   font-size: var(--fs-7);
   color: var(--sonic-silver);
 }
+
+@media (min-width: 1024px) {
+  .testimonials-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    column-gap: 30px;
+  }
+
+  .testimonial {
+    min-width: 45%;
+    width: 45%;
+  }
+}
