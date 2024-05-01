@@ -144,3 +144,9 @@ body::-webkit-scrollbar-thumb:hover {
   border-bottom: 1px solid var(--cultured);
   margin-bottom: 30px;
 }
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 18px;
+  }
+}
